@@ -1,3 +1,5 @@
+import {Author} from './Author';
+
 export interface Article {
     title : string;
     content : string;

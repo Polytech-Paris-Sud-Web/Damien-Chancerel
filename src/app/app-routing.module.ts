@@ -5,6 +5,7 @@ import { ArticleCreationComponent } from './article-creation/article-creation.co
 import { ArticlesComponent } from './articles/articles.component';
 import { ArticleDetailComponent } from './article-detail/article-detail.component';
 import { AuthorComponent } from './author/author.component';
+import { TopArticlesComponent } from './top-articles/top-articles.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'articles', component: ArticlesComponent },
   { path: 'article/:id', component: ArticleDetailComponent },
   { path: 'author/:name', component: AuthorComponent },
+  { path: 'top10', component: TopArticlesComponent },
   { path: '', component: ArticlesComponent }
 ]
 

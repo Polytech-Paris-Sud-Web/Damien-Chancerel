@@ -28,7 +28,7 @@ export class ArticleCreationComponent implements OnInit {
     const newArticle = {
       title,
       content,
-      author
+      author,
     }
 
     this.articleService.addArticle(newArticle).subscribe(value => {
