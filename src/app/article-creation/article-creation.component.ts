@@ -35,5 +35,8 @@ export class ArticleCreationComponent implements OnInit {
       console.log(value);
     });
   }
+  test(){
+    
+  }
 
 }
